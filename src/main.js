@@ -1,3 +1,3 @@
-const hi = require('./hello');
+const hi = require('./hello.js');
 
-hi();
+hi.hello();
