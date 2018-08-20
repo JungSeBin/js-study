@@ -1,6 +1,7 @@
 language: node_js
 node_js: stable
 script:
+- yarn
 - npm run build --prefix=webpack-study
 deploy:
   provider: pages
